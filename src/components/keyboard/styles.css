@@ -1,0 +1,18 @@
+.keyboard {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.blackkey {
+    background-color: black;
+    padding: 3px;
+    padding-bottom: 12rem;
+}
+
+.whitekey {
+    background-color: white;
+    border: 1px solid black;
+    margin: 1px;
+    padding: 3px;
+    padding-bottom: 17rem;
+}
